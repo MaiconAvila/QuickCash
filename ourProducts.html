@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Our Products - QuickCash</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,600|Montserrat:500,600,700|Muli:300" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content=""><!-- palavras chave -->
+	<meta name="description" content=""><!-- descrição do site -->
+	<meta name="author" content=""><!-- autor ou autores do site -->
+	<meta http-equiv="content-language" content="en-US, fr" /><!-- definindo idiomas do site (o lang defini o idioma principal) -->
+</head>
+
+<body>
+	<!--=====|header|=====-->	
+	<header class="containerHeader">
+		<section class="containerHeader-barraSuperior">
+				<a href="index.html"><img class="logo" src="assets/logo.png"></a>
+			<!--=====|Desketop|=====-->
+			<nav class="blocoMenu">
+				<a href="about.html" class="blocoMenu-link">About us</a>
+				<a href="ourProducts.html" class="blocoMenu-link">Our Products</a>
+				<a href="#contatos" class="blocoMenu-link">Contacts</a>
+				<a class="language-link" href=""><span>EN</span>/FR</a>
+			</nav>
+			<!--==========-->
+			<!--=====|Mobile|=====-->
+			<nav class="blocoMenuMobile">
+		    	<div class="mobileBotao">MENU</div>
+		        <div class="blocoMenuMobile-menu">
+		        	<div class="blocoBotaoSair">
+		        		<a href="" class="botaoSair">X</a>
+		        	</div>
+		            <a href="about.html" class="blocoMenuMobile-menu-link">About us</a>
+					<a href="ourProducts.html" class="blocoMenuMobile-menu-link">Our Products</a>
+					<a href="#contatos" class="blocoMenuMobile-menu-link contatos">Contacts</a>
+		        </div>
+			</nav>    
+			<!--==========-->
+		</section>
+	</header>
+	<!--==========-->
+	<!--=====|Produtos e Apresentação|=====-->
+	<section class="container">
+		<h1 class="container-titulo">Our products</h1>
+		<div class="containerProdutos">
+			<div class="containerProdutos-bloco">
+				<h1 class="containerProdutos-bloco-titulo">Cash to Cash</h1>
+				<img class="containerProdutos-bloco-imagem" src="assets/cash.png" alt="Troca De Dinheiro">
+				<p class="containerProdutos-bloco-paragrafo">Transfer of money from one individual to another</p>
+			</div>
+			<div class="containerProdutos-bloco">
+				<h1 class="containerProdutos-bloco-titulo">Cash to Card</h1>
+				<img class="containerProdutos-bloco-imagem" src="assets/card.png" alt="Transferencia de Dinheiro para Cartão De Crédito">
+				<p class="containerProdutos-bloco-paragrafo">Transfer of money from an individual onto a card</p>
+			</div>
+			<div class="containerProdutos-bloco">
+				<h1 class="containerProdutos-bloco-titulo">Cash to Account</h1>
+				<img class="containerProdutos-bloco-imagem" src="assets/account.png" alt="Transferencia de Cartão de Crédito para Dinheiro">
+				<p id="click" class="containerProdutos-bloco-paragrafo">Transfer of money from an individual to a bank account</p>
+			</div>
+		</div>
+	</section>
+	<!--==========-->
+	<!--=====|Apresentação Simulador|=====-->
+	<section class="containerSimulador">
+		<!--=====|Apresentação Simulador - Bloco lateral|=====-->
+		<div class="containerSimulador-blocoLateral">
+      <h2 class="containerSimulador-titulo">Simulate your transfer</h2>
+			<p class="containerSimulador-subTitulo">QuickCash is currently available in these countries:</p>
+			<div class="containerSimulador-paises">
+				<div class="containerSimulador-bandeira">
+					<img src="assets/Costa-do-marfim.png" alt="Bandeira Costa-do-marfim">
+					<p class="containerSimulador-nome">Ivory Coast</p>
+				</div>
+				<div class="containerSimulador-bandeira">
+					<img src="assets/BurkinaFaso.png" alt="Bandeira Burkina Faso">
+					<p class="containerSimulador-nome">Burkina Faso</p>
+				</div>
+				<div class="containerSimulador-bandeira">
+					<img src="assets/mali.png" alt="Bandeira Mali">
+					<p class="containerSimulador-nome">Mali</p>
+				</div>
+				<div class="containerSimulador-bandeira">
+					<img src="assets/Niger.png" alt="Bandeira Niger">
+					<p class="containerSimulador-nome">Niger</p>
+				</div>
+				<div class="containerSimulador-bandeira">
+					<img src="assets/Togo.png" alt="Bandeira Togo">
+					<p class="containerSimulador-nome">Togo</p>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!--==========-->
+	<!--=====|Agência e Noticia|=====-->
+	<main class="containerPrincipal">
+		<section class="containerAgencia">
+			<img class="containerAgencia-icon" src="assets/globo.svg" alt="Símbolo Globo">
+			<h1 class="containerAgencia-titulo">Find an agency near you!</h1>
+			<form class="containerAgencia-form">
+                <label class="containerAgencia-label" for="country">Country</label>
+                <select id="country" name="country" placeholder="Country">
+                    <option value="country">Country</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="France">France</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Japan">Japan</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Portugal">Portugal</option>
+                    <option value="Spain">Spain</option>
+                    <option value="United States">United States</option>
+                </select>                
+	            <label class="containerAgencia-label" for="state">State</label>
+	            <select name="state" id="state" placeholder="State" >
+					<option value="state">State</option>
+					<option value="state">State</option>
+					<option value="state">State</option>
+				</select>
+				<label class="containerAgencia-label" for="city">City</label>
+				<select name="city" id="city" placeholder="City" >
+					<option value="city">City</option>
+					<option value="city">City</option>
+					<option value="city">City</option>
+				</select>
+				<button class="containerAgencia-botao">
+					<a class="containerAgencia-botao-link">SEARCH</a>	
+				</button>
+			</form>
+			<div class="containerMap">
+				<div class="containerMap-map" style="overflow:hidden;width: 200px;position: relative;"><iframe width="200" height="150" src="https://maps.google.com/maps?width=200&amp;height=200&amp;hl=en&amp;q=BIAO%20abidjan+(T%C3%ADtulo)&amp;ie=UTF8&amp;t=&amp;z=10&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/fr/">https://embedgooglemaps.com/fr/</a> & <a href="https://lasagradafamiliatickets.de/la-sagrada-familia-ticket/">tickets online buchen</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+				<p class="containerMap-texto">Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01</p>
+			</div>
+		</section>
+	<!--==========-->
+	<!--=====|Contatos|=====-->
+	<footer id="contatos" class="containerFooter">
+		<div class="containerFooter-circulosMaiores">
+			<img src="assets/circulos-vermelhos.png" alt="Bolas vermelhas">
+		</div>
+
+		<div class="containerFooter-logoContatos">
+			<div class="logoContatos-logoFooter">
+				<img src="assets/logo-footer.png" alt="QuickCash">
+			</div>
+			<div>
+				<div class="logoContatos-iconTexto">
+					<img src="assets/baseline-location_on-24px.svg" alt="Localizaçãõ">
+					<p>Plateau Tour BIAO, 13th Floor - 01 BP 10804 Abidjan 01</p>
+				</div>
+				<div class="logoContatos-iconTexto">
+					<img src="assets/baseline-phone-24px (1).svg" alt="Telefone">
+					<p>Tel : (225) 20 32 25 35</p>
+				</div>
+				<div class="logoContatos-iconTexto">
+					<img src="assets/baseline-email-24px.svg" alt="Email">
+					<p>Email : infos@quickcashci.com</p>
+				</div>
+			</div>
+			<div class="logoContatos-textoCopy">
+				<p class="logoContatos-textoCopy-copy">Copyright © 2019 QuickCash - All Rights Reserved </p>
+				<p>Developed by Vai na WEb</p>
+			</div>
+		</div>
+		<div class="containerfooter-menuFooter">
+			<a href="about.html">About us</a>
+			<a href="ourProducts.html">Our Products</a>
+			<a href="#contatos">Contact</a>
+			<a href="">Home</a>
+			<img src="assets/circulos-brancos.png" alt="Bolas Brancas">
+		</div>
+	</footer>
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/menu-mobile.js"></script>
+</body>
+</html>

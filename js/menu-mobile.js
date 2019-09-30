@@ -1,0 +1,31 @@
+$(function(){
+	/*=====|Menu Mobile|=====*/
+	$('.mobileBotao').click(function(){
+		$('.blocoMenuMobile-menu').css('display','flex');
+	});
+	$('.faleConosco-titulo-sair').click(function(){
+		$('.blocoMenuMobile-menu').css('display','none');
+	});
+	$('.faleConosco-titulo-sair').click(function(){
+		$('.buttomContact').css('display','flex');
+	});
+	$('.contatos').click(function(){
+		$('.blocoMenuMobile-menu').css('display','none');
+	});
+	/*=====|Fale Conosco|=====*/
+	$('.faleConosco-titulo-sair').click(function(){
+		$('.faleConosco').css('display','none');
+	});
+	$('.buttomContact').click(function(){
+		$('.faleConosco').css('display','block');
+	});
+	$('.cancel').click(function(){
+		$('.faleConosco').css('display','none');
+	});
+	$('.cancel').click(function(){
+		$('.buttomContact').css('display','flex');
+	});
+	$('.buttomContact').click(function(){
+		$('.buttomContact').css('display','none');
+	});
+});
